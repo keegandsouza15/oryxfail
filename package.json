@@ -6,7 +6,7 @@
         "url": "https://github.com/cornflourblue/angular2-jwt-authentication-example.git"
     },
     "scripts": {
-        "start": "tsc && concurrently \"npm run tsc:w\"",
+        "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
         "lite": "lite-server",
         "tsc": "tsc",
         "tsc:w": "tsc -w"
@@ -21,6 +21,7 @@
         "@angular/platform-browser-dynamic": "^5.0.0",
         "@angular/router": "^5.0.0",
         "core-js": "^2.4.1",
+        "pm2": "^3.5.1",
         "rxjs": "^5.2.0",
         "systemjs": "^0.20.19",
         "zone.js": "^0.8.5"
