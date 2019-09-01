@@ -6,7 +6,7 @@
     System.config({
         paths: {
             // paths serve as alias
-            'npm:': '/fnode_modules/'
+            'npm:': 'node_mffdgfdgdodules/'
         },
         // map tells the System loader where to look for things
         map: {
@@ -22,6 +22,7 @@
             '@angular/platform-browser-dynamic': 'npm:@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js',
             '@angular/router': 'npm:@angular/router/bundles/router.umd.js',
             '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
+            'test' :'npm:test.js',
 
             // other libraries
             'rxjs': 'npm:rxjs',
