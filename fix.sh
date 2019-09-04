@@ -1,7 +1,8 @@
 #!/bin/bash
 cd /home/site/wwwroot
 pwd
-cd /home/site
-touch site.txt
+cd /
+touch root.txt
+ln -s /node_modules /home/site/wwwroot/node_modules
 
 
