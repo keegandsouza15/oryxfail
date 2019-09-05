@@ -109,6 +109,9 @@ fi
 # 2. Select node version
 selectNodeVersion
 
+echo $DEPLOYMENT_SOURCE
+echo $DEPLOYMENT_TARGET
+
 # 3. Install npm packages
 if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
   cd "$DEPLOYMENT_TARGET"
